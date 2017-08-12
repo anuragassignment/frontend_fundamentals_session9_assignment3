@@ -1,0 +1,82 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Left vertical navigation */
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-nav>li {
+    float: none;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+.nav.navbar-nav {
+    width: 100%;
+}
+
+.container-fluid .row header {
+    padding-left: 0px;
+}
+
+.caret-dropdown {
+    text-align: center;
+    opacity: 0;
+}
+
+
+/*section heading style*/
+
+section h1 {
+    display: none;
+}
+
+
+/*aside styles*/
+
+aside .panel-default>.panel-heading {
+    color: #7386D5;
+    margin: 0;
+}
+
+.pager li a {
+    border-radius: 3px;
+}
+
+.nav-stacked li a {
+    margin-bottom: 15px;
+}
+
+
+/*footer Styles*/
+
+footer {
+    background: #efefef;
+    height: 49px;
+    line-height: 49px;
+    border: 1px solid #e3e3e3;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    color: #555;
+}
+
+
+/*main section styles*/
+
+main {
+    margin-bottom: 40px;
+}
